@@ -11,6 +11,13 @@ header {
   background-color: #b5b5b5;
   border-bottom: 3px solid #eee;
 }
+.hero{
+  margin:`20px;
+  padding: 0;
+  height: 85vh;
+  justify-items: center;
+  align-content: center;
+}
 #menu-utama {
       margin: 0px 0px;
       padding: 20px 10px;
@@ -31,5 +38,7 @@ header {
 }
 body{
   background-color: rgb(102, 102, 102);
-  margin: 40px;
+  margin: 0px;
 }
+section{
+  padding: 20px;
