@@ -18,3 +18,6 @@ p {
 footer {
   color: blueviolet;
 }
+body{
+  background: linear-gradient(90deg, rgba(34,193,195,1)100%,rgba(34,193,195,100)0% );
+}

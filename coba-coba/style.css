@@ -1,4 +1,35 @@
 .logo-utama {
-  width: 100px;
-  height: auto;
+  width: 50px;
+  height:max-content;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px;
+  padding: 0px 10px;
+  background-color: #b5b5b5;
+  border-bottom: 3px solid #eee;
+}
+#menu-utama {
+      margin: 0px 0px;
+      padding: 20px 10px;
+      display: flex;
+      justify-content: center;
+      color: #000000;
+}
+#menu-utama li {
+  margin: 10px 5px;
+}
+#menu-utama li a {
+  color: #000000;
+  text-decoration: none;
+}
+#menu-utama li a:hover {
+  color: #0000EE;
+  transition: 0.5;
+}
+body{
+  background-color: rgb(102, 102, 102);
+  margin: 40px;
 }
