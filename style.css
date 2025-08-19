@@ -1,0 +1,20 @@
+h1,
+h2,
+h3 {
+  color: crimson;
+  font-family: sans-serif;
+}
+#title-biografi {
+  background-color: aqua;
+}
+.bg-color{
+    background-color: azure;
+}
+
+p {
+  color: rgb(41, 35, 27);
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+  color: blueviolet;
+}
