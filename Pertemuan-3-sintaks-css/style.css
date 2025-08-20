@@ -3,12 +3,13 @@ h2,
 h3 {
   color: crimson;
   font-family: sans-serif;
+  text-align: center;
 }
 #title-biografi {
   background-color: aqua;
 }
-.bg-color{
-    background-color: azure;
+.bg-color {
+  background-color: azure;
 }
 
 p {
@@ -16,8 +17,27 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 footer {
-  color: blueviolet;
+  color: blue;
+  text-align: center;
 }
-body{
-  background: linear-gradient(90deg, rgba(34,193,195,1)100%,rgba(34,193,195,100)0% );
+body {
+  background: #22c1c3;
+  background: linear-gradient(
+  90deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  height: fit-content;
+  background-image: url("./Assets/gunung-bromo.jpg");
+  height: 100vh;
+  background-size: 100vh;
+  background-position: center;
+  padding: 0px;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header{
+  margin-top:0px;
+  padding-top: 0px;
 }
