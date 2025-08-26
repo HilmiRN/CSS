@@ -1,0 +1,16 @@
+/* body {
+  background-image: url('./gunung_bromo.jpg');
+} */
+header h1 {
+  text-align: center;
+}
+header p.text-start {
+  text-align: justify;
+  text-decoration: underline;
+  line-height: 2rem;
+  text-align: center;
+}
+header p.text-end {
+  text-align: justify;
+  direction: rtl;
+}
