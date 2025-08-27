@@ -1,4 +1,15 @@
-h1 {
-    color: lime;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+.font-sans-serif {
+  font-family: Arial, sans-serif;
+}
+.font-serif {
+  font-family: Georgia, serif;
+}
+.font-monospace {
+  font-family: 'Courier New', monospace;
+}
+.font-cursive {
+  font-family: 'Brush Script MT', cursive;
+}
+.font-fantsy {
+  font-family: 'Comic Sans MS', fantasy;
 }
