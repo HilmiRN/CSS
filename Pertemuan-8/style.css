@@ -1,0 +1,46 @@
+/* Selector menggunakan tag atau elemen */
+p {
+  color: chartreuse;
+  text-align: justify;
+  line-height: 1.5;
+}
+/* Selector menggunakan ID */
+p.paragraf {
+  background-color: cadetblue;
+  font-size: 18px;
+  font-style: italic;
+}
+/* Selector menggunakan kelas */
+#halaman_home {
+  background-color: cyan;
+  backdrop-filter: blur(5px);
+  padding: 20px;
+}
+/* Selector menggunakan atribut */
+input[type="text"] {
+  border-color: aquamarine;
+  border-width: 2px;
+  border-style: solid;
+  padding: 5px;
+}
+/* Selector menggunakan universal selektor (*) */
+* {
+  border-color: darkgreen;
+  border-radius: 10px;
+  border: 2px solid;
+}
+/* Selector menggunakan pseudo-class ( */
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+/* Selector menggunakan pseudo-element */
+h1::after {
+  content: " (Selamat Datang di Halaman Utama)";
+  font-size: 16px;
+  color: darkcyan;
+}
+p::first-line {
+  font-size: 16px;
+  color: rgb(255,0 ,0);
+}

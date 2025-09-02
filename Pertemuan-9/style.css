@@ -1,0 +1,52 @@
+*{
+    border: 3px solid blue;
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    color:blue;
+}
+div{
+    color:red;
+}
+b{
+    font-size: 30px;
+}
+.pink{
+    color: #fff;
+    background: pink;
+    padding: 5px;
+    font-weight: 700;
+}
+.text-white {
+    color: #fff;
+}
+.bg-teal {
+    background: teal;
+}
+#header{
+    background: teal;
+    color: white;
+    height: 100px;
+    padding: 50px;
+}
+input[type="text"] {
+    background: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid grey;
+    width: 400px;
+}
+a:hover {
+    background-color: red;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.tugas:hover{
+    background-color: white;
+}
+p::first-line {
+    color: magenta;
+}
