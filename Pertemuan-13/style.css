@@ -98,7 +98,7 @@ h2 {
   text-decoration: none;
   transition: color 0.2s ease;
   display: block;
-  padding: 10px 30px 50px 30px;
+  padding: 10px 30px 30px 30px;
   text-align: center;
 }
 .link-safari:hover {
