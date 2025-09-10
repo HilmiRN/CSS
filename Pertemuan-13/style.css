@@ -90,15 +90,21 @@ h2 {
 .info {
   margin: 0 auto;
 }
-/* .link-safari {
+.link-safari {
   font-family: "Noto Sans", sans-serif;
   font-size: 14px;
   font-weight: 500;
   color: #000;
   text-decoration: none;
+  transition: color 0.2s ease;
+  display: block;
   text-align: center;
-  margin: 0 auto;
-} */
+}
+.link-safari:hover {
+  transition: color 0.2s ease;
+  text-decoration: underline;
+  color: blue;
+}
 footer {
   margin: 20px 0 0;
   text-align: center;
