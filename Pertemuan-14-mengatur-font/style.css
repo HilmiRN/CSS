@@ -1,0 +1,59 @@
+body {
+  font-family: "roboto";
+}
+h1 {
+  font-size: 24px;
+  color: slateblue;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-family: cursive;
+}
+.font-big {
+  font-size: x-large;
+}
+
+.font-small {
+  font-size: small;
+}
+.tebal {
+  font-weight: bold;
+}
+.lighter {
+  font-weight: lighter;
+}
+.bolder {
+  font-weight: bolder;
+}
+.miring {
+  font-style: italic;
+}
+blockquote {
+  font-size: larger;
+  font-style: italic;
+  color: gray;
+  padding: 30px;
+  border: 1px solid blue;
+}
+.sans {
+  font-family: sans;
+}
+.sans-serif {
+  font-family: sans-serif;
+}
+.monospace {
+  font-family: monospace;
+}
+.cursive {
+  font-family: cursive;
+}
+.fantasy {
+  font-family: fantasy;
+}
+.font-google {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-left: 50px;
+}

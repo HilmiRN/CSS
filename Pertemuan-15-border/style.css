@@ -1,0 +1,14 @@
+header {
+  border: 40px solid transparent; /* Ukuran Bingkai */
+  border-image-source: url(../Latihan/P14/border-new.png);
+  border-image-slice: 80; /* Potongan Gambar Bingkai */
+  border-image-repeat: round; /* atau round jika ingin pola diulang */
+  border-radius: 24px; /* Sudut Melengkung */
+  max-width: 900px;
+  height: 200px;
+  margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
