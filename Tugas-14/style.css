@@ -1,0 +1,12 @@
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+p{
+    font-size: 1.2em;
+}
+div{
+    width: 50%;
+    height: 50vh;
+    background-color: lightblue;
+}
