@@ -1,0 +1,27 @@
+#container{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+#header{
+    height: 100px;
+    background-color: gray;
+}
+#content{
+    width: 75%;
+    height: 250px ;
+    background-color: rgb(150, 150, 150);
+    color: black    ;
+    float: left;
+}
+#sidebar{
+    width: 25%;
+    height: 250px ;
+    background-color: rgb(188, 207, 176);
+    float: right;
+}
+#footer{
+    clear: both;
+    height: 50px;
+    background-color: gray;
+}   

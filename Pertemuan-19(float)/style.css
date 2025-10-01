@@ -1,0 +1,79 @@
+.float-right {
+  text-align: center;
+  float: right;
+  text-align: center;
+  width: 150px;
+  margin: 20px;
+}
+.float-left {
+  text-align: center;
+  float: left;
+  text-align: center;
+  width: 150px;
+  margin: 20px;
+}
+img {
+  border-radius: 30;
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.box1 {
+  width: 300px;
+  height: 300px;
+  background-color: lightblue;
+  float: left;  text-align: center;
+}
+.box2 {
+  width: 300px;
+  height: 300px;
+  background-color: lightgreen;
+  float: left;  text-align: center;
+}
+.box3 {
+  width: 300px;
+  height: 300px;
+  background-color: lightcoral;
+  float: left;
+  text-align: center;
+}
+.box4 {
+  width: 300px;
+  height: 300px;
+  background-color: lightgoldenrodyellow;
+  float: right;
+  text-align: center;
+}
+.box5 {
+  width: 300px;
+  height: 300px;
+  background-color: lightpink;
+  float: right;
+  text-align: center;
+}
+.box6 {
+  width: 300px;
+  height: 300px;
+  background-color: lightgray;
+  float: right;
+  text-align: center;
+}
+.clearfix{
+    overflow: auto;
+}
+.elemen1{
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+}
+.elemen2{
+    float: right;
+    width: 300px;
+    height: 200px;
+    background-color: orange;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}

@@ -1,0 +1,41 @@
+.navigasi {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden; 
+}
+
+.navigasi li {
+    float: right;
+}
+
+.navigasi li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigasi li a:hover {
+    background-color: #111;
+}
+.container {
+    width: 100%;
+}
+.sidebar {
+    width: 30%;
+    float: left;
+    background-color: #f4f4f4;
+}
+.content {
+    width: 70%;
+    float: right;
+    background-color: #e0e0e0;
+}
+.clearfix::after {
+    content: "";    
+    clear: both;
+    display: block;
+}   
