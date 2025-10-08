@@ -1,0 +1,28 @@
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+.subheading {
+  padding-left: 30px;
+}
+span {
+  padding: 10px;
+  display: block;
+}
+.kotak1 {
+ display: inline-block;
+ background-color:  lightcoral;
+ width: 150px;
+ height: 150px;
+ margin: 10px;
+}
+.kotak2 {
+ display: inline-block;
+ background-color:  lightblue;
+ width: 150px;
+ height: 150px;
+ margin: 10px;
+}
+p#none{
+    display: none;
+}
