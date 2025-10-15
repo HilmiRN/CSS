@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 40px;
+}
+.instagram{
+    background-color: #ff00e6;
+    color: white;
+    padding: 10px;
+    border: 0px;
+    display: flex;
+}
+.facebook{
+    background-color: #3b5998;
+    color: white;
+    padding: 10px; 
+    border: 0px;
+    display: flex; 
+}
+.whatsapp{
+    background-color: #25d366;
+    color: white;
+    padding: 10px;
+    border: 0px;
+    display: flex;
+}
+.pinterest{
+    background-color: #bd081c;
+    color: white;
+    padding: 10px;
+    border: 0px;
+    display: flex;
+}
+.container{
+    text-align: center;
+    max-width: 100px;
+    float: left;
+    position: fixed;
+    top: 40%;
+}
+
+p{
+    margin: 100px;
+}
