@@ -71,3 +71,6 @@ ol.upper-roman {
 ol.lower-alpha {
     list-style-type: lower-alpha;
 }
+ul.list-image {
+    list-style-image: url(./assets/soft-drink.png   );
+}
