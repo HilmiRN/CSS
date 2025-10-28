@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -155,7 +154,7 @@ header button {
 }
 .project-header button {
   font-size: 22px;
-  background-color: #E62872;
+  background-color: #e62872;
   color: #fff;
   text-decoration: none;
   border: none;
@@ -163,183 +162,29 @@ header button {
   height: max-content;
   width: max-content;
   border-radius: 10px;
-  img{
+  img {
     margin-right: 10px;
   }
 }
-.project{
-  padding: 85px 135px;
-}
-=======
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-family: "Roboto", sans-serif;
-}
-p,
-a {
-  font-size: 22px;
-  color: #1c1e53;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #282938;
-}
-/* header */
-header {
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  align-items: center;
-  padding: 25px 85px;
-}
-header img {
-  display: flex;
-  height: 40px;
-}
-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 30px;
-  justify-content: center;
-  li a {
-    color: #1c1e53;
-    text-decoration: none;
-    transition: all 0.2s ease-out;
-  }
-}
-nav ul li a:hover {
-  color: #5e3bee;
-  transition: all 0.2s ease-out;
-}
-header button {
+.project-header button:hover {
   background-color: #fff;
-  padding: 20px 30px;
-  border: none;
-  border-radius: 5px;
-  border: 1px solid #5e3bee;
-  a {
-    color: #5e3bee;
-    text-decoration: none;
-  }
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+  color: #E62872;
 }
-/* main */
-.hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 85px 135px;
-  background-color: #f5fcff;
-}
-.hero .hero-right img {
-  height: 730px;
-}
-.hero .hero-left {
-  display: flex;
-  flex-direction: column;
-}
-.hero-left div {
-  margin-bottom: 40px;
-  h1 {
-    margin: 30px 0;
-    font-size: 65px;
-    color: #282938;
-    span {
-      color: #5e3bee;
-    }
-  }
-  p {
-    font-size: 24px;
-  }
-}
-.hero-left button {
-  background-color: #5e3bee;
-  padding: 20px 20px;
-  border: none;
-  border-radius: 10px;
-  display: flex;
-  width: max-content;
-  height: max-content;
-  a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: 100;
-  }
-}
-.expertise {
+.project {
   padding: 85px 135px;
 }
-.section-header {
-  gap: 20px;
-  margin-bottom: 50px;
-}
-.section-header h2 {
-  font-size: 65px;
-}
-.section-header p {
-  font-size: 24px;
-  font-weight: 600;
-}
-.cards {
+.cards-portfolio {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
   margin-top: 50px;
 }
-.card {
-  background-color: #f5fcff;
-  border-radius: 10px;
-  padding: 30px;
-  transition: all 0.2s ease-out;
-  margin: 20px;
-}
-.card:hover {
-  box-shadow: 0px 6px #5f3bee;
-  transition: all 0.2s ease-out;
-}
-.aboutme {
-  display: flex;
-  padding: 85px 135px;
-}
-.about-left img {
-  margin-right: 70px;
-  max-height: 1000px;
-}
-.about-right {
-  margin-left: 70px;
-  font-size: 24px;
-  font-weight: 300;
-  align-content: center;
-}
-.about-right div {
-  margin-bottom: 30px;
-}
-.project-header {
-  display: flex;
-  justify-content: space-between;
-}
-.project-header button {
-  font-size: 22px;
-  background-color: #E62872;
-  color: #fff;
-  text-decoration: none;
-  border: none;
-  padding: 20px 15px;
+.card-portfolio {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
   height: max-content;
-  width: max-content;
-  border-radius: 10px;
-  img{
-    margin-right: 10px;
+  .img-portfolio {
+    height: 400px;
   }
 }
-.project{
-  padding: 85px 135px;
-}
->>>>>>> d4bf47092c4b2796ff40d019821479cd1b5d57fc
