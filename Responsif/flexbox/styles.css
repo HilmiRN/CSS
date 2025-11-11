@@ -1,0 +1,30 @@
+html,
+body,
+.flex-container {
+  height: 100%;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.flex-item {
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+  background-color: #ec5453;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+.start{
+    justify-content: flex-start;
+}
+.end{
+    justify-content: flex-end;
+}
+.center{
+    justify-content: center;
+}
+.space-b{
+    justify-content: space-between;
+}
