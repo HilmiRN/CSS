@@ -9,7 +9,7 @@ body {
 }
 main section.cards {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 50px;
   justify-content: center;
   margin: 100px;

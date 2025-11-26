@@ -1,0 +1,55 @@
+/* Rotate Effect */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: all 0.2s;
+  margin: 40px 20px;
+}
+.box:hover {
+  transition: all 0.2s;
+  transform: rotate(45deg);
+}
+/* Scale Effect */
+.box_scale {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 40px 20px;
+  transition: all 0.2s;
+}
+.box_scale:hover {
+  transform: scale(1.3);
+  transition: all 0.2s;
+}
+/* Transform */
+.box_translate {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  margin: 40px 20px;
+  transition: all 0.2s;
+}
+.box_translate:hover {
+  transform: translate(30px, 30px);
+}
+.box_skew {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  margin: 40px 20px;
+  transition: all 0.2s;
+}
+.box_skew:hover{
+    transform: skew(20deg);
+}
+.box-mix {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  margin: 40px 20px;
+  transition: all 0.2s;
+}
+.box-mix:hover {
+  transform: rotate(10deg) scale(1.2) translate(20px, 20px);
+}
