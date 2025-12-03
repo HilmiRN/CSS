@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ccc;
+}
+.button {
+  position: fixed;
+  top: 50px;
+  left: -20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.like {
+  display: flex;
+  gap: 10px;
+  padding: 15px 20px 15px 35px;
+  border: 1px solid rgb(0, 191, 255);
+  border-radius: 0px 10px 10px 0px;
+  transition: transform 0.3s;
+  transition: color background 0.1s;
+}
+.like:active {
+  background-color: black;
+  color: white;
+}
+.like:hover {
+  transform: translateX(10px);
+}
+.share {
+  display: flex;
+  gap: 10px;
+  padding: 15px 20px 15px 35px;
+  border: 1px solid rgb(0, 191, 255);
+  border-radius: 0px 10px 10px 0px;
+  transition: transform 0.3s;
+  transition: color background 0.1s;
+}
+.share:active {
+  background-color: black;
+  color: white;
+}
+.share:hover {
+  transform: translateX(10px);
+}
+.poster-b {
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  border-radius: 15px;
+}
+.poster {
+  background-image: url(./Assets/Hitam.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 562px;
+  width: 397px;
+  color: white;
+  margin: 0;
+  animation: poster 1s;
+}
+@keyframes poster {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+.poster div {
+  margin-top: 80px;
+}
+.poster div h2 {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 5px;
+  text-align: center;
+  display: block;
+  margin: 0 0 -15px 100px;
+}
+.poster div h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 90px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+.poster div p {
+  width: 100%;
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: -5px;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: black;
+  h3 {
+    animation: geser 0.7s ease-in-out;
+    flex-wrap: nowrap;
+    color: #fff;
+  }
+}
+@keyframes geser {
+  from {
+    transform: translateY(200%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
